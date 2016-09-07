@@ -1,0 +1,228 @@
+/**********
+
+FONTS, SNIPPETS, ETC
+
+***********/
+
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+/*font-family: 'Oswald', sans-serif;*/
+
+/**********
+
+NAV
+
+***********/
+
+.camp-nav {
+  display: flex;
+  justify-content: center;
+  background: #333;
+  height: 10vh;
+  width: 100%;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.camp-nav h1{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.camp-nav img {
+  height: 5vh;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.camp-nav a {
+  margin-right: 10px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+.camp-nav a:visited {
+  text-decoration: none;
+}
+
+.camp-nav a:active {
+  text-decoration: none;
+}
+
+/**********
+
+HOME
+
+***********/
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url('https://hd.unsplash.com/photo-1462058294476-57b85c9f2bf5');
+  background-size: cover;
+}
+
+.landing-container h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #fff;
+}
+
+.landing-container h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #fff;
+}
+
+/**********
+
+NAV
+
+***********/
+
+footer {
+  height: 20vh;
+  width: 100%;
+  background: #333;
+}
+
+/**********
+
+CATEGORY
+
+***********/
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card-container {
+  height: 80vh;
+  width: 500px;
+  margin: 20px;
+}
+
+.product-card-img-14 {
+  height: 40vh;
+  width: 500px;
+  background-image: url('http://www.campchef.com/media/wysiwyg/campchef/cms_content/14-system-main.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-card-img-16 {
+  height: 40vh;
+  width: 500px;
+  background-image: url('http://www.campchef.com/media/wysiwyg/campchef/cms_content/16-system-main.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.product-card-img-ms {
+  height: 40vh;
+  width: 500px;
+  background-image: url('https://hd.unsplash.com/photo-1444124818704-4d89a495bbae');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.product-card-img-oc {
+  height: 40vh;
+  width: 500px;
+  background-image: url('https://hd.unsplash.com/photo-1470930938908-e8d5c5bd05df');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.product-card-img-ws {
+  height: 40vh;
+  width: 500px;
+  background-image: url('https://hd.unsplash.com/photo-1464867037750-e4ebec103b42');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.product-card-info {
+  display: flex;
+  flex-wrap: wrap;
+  height: 40vh;
+  text-align: left;
+  width: 500px;
+  padding: 40px;
+  border: 1px solid black;
+}
+
+.product-card-info h1{
+  width: 500px;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+
+.product-card-info p{
+  width: 500px;
+  margin: 0;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+}
+
+.product-card-info a{
+  width: 500px;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+.product-card-info a:hover {
+  color: black;
+  opacity: .7;
+}
+
+.product-btn-container {
+
+}
+
+.product-btn-container button{
+  height: 25px;
+  width: 160px;
+  text-decoration: none;
+  background: #B82927;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.product-btn-container button:hover {
+  opacity: .7;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="campChef">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Chef</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <main>
+      <nav class="camp-nav">
+        <div class="nav-logo">
+          <h1>Camp Chef</h1>
+          <a ui-sref="home"><img src="styles/images/tent.png" alt="" /></a>
+        </div>
+        <div class="nav-links">
+          <a ui-sref="category">category</a>
+          <a ui-sref="product">product</a>
+          <a ui-sref="sub">sub</a>
+        </div>
+      </nav>
+      <ui-view></ui-view>
+      <footer>
+      </footer>
+    </main>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js" charset="utf-8"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Scripts -->
+    <script src="app/app.js" charset="utf-8"></script>
+    <script src="app/mainCtrl.js" charset="utf-8"></script>
+  </body>
+</html>
