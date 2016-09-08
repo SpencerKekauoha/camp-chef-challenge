@@ -582,3 +582,146 @@ PRODUCT-DETAIL-toggle box
 #toggle-q {
   display: none;
 }
+
+/**********
+
+PRODUCT-DETAIL-reviews
+
+***********/
+
+.product-reviews-section {
+  margin-top: 50px;
+}
+
+.reviews-header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.reviews-header p {
+  font-family: 'Oswald', sans-serif;
+}
+
+.reviews-header button {
+  font-family: 'Oswald', sans-serif;
+  background: #ddd;
+  border: none;
+}
+
+.reviews-hr {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.reviews-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+  border-radius: 50px;
+  background: rgb(0, 171, 255);
+}
+
+.reviews-avatar h1 {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.reviews-info {
+  margin-left: 10px;
+  margin-right: 50px;
+  width: 100%;
+}
+
+.reviews-info img {
+  height: 15px;
+  margin-top: -10px;
+}
+
+/**********
+
+PRODUCT-DETAIL-related articles
+
+***********/
+
+.related-articles-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.related-articles-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 10px;
+  color: #333;
+}
+
+.related-articles-1 {
+  height: 40vh;
+  width: 500px;
+  background-image: url('http://www.campchef.com/blog/wp-content/uploads/2016/09/PG36LUX_1-blog.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.related-articles-2 {
+  height: 40vh;
+  width: 500px;
+  background-image: url('http://www.campchef.com/blog/wp-content/uploads/2016/08/conestoga-ranch.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.related-articles-info {
+  width: 500px;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.related-articles-info h1{
+  width: 500px;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #B82927;
+}
+
+.related-articles-info p{
+  width: 500px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.read-more{
+  width: 500px;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #B82927;
+}
+
+.read-more:hover {
+  color: black;
+  opacity: .7;
+}
