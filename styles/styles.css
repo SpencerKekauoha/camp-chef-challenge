@@ -725,3 +725,34 @@ PRODUCT-DETAIL-related articles
   color: black;
   opacity: .7;
 }
+
+.product-card-img-3 {
+  height: 40vh;
+  width: 500px;
+  background-image: url('http://www.campchef.com/media/wysiwyg/campchef/cms_content/14-system-depth.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.sub-info h1{
+  width: 500px;
+  margin-top: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.product-card-img-4 {
+  height: 40vh;
+  width: 500px;
+  background-image: url('http://www.campchef.com/media/wysiwyg/campchef/cms_content/starburst.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.detail-accessory-title {
+  display: flex;
+  justify-content: center;
+}
